@@ -1,0 +1,1128 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VENUE</title>
+    <style>
+      #parent_div1 {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        flex-direction: row;
+        /* position: fixed; */
+        background-color: white;
+        width: 100%;
+      }
+
+      .nav {
+        position: absolute;
+        display: inline-block;
+        right: 270px;
+        top: 17px;
+        font-family: sans-serif;
+      }
+
+      .nav1 {
+        position: absolute;
+        display: inline-block;
+        right: 145px;
+        top: 17px;
+        font-family: sans-serif;
+      }
+
+      .nav2 {
+        position: absolute;
+        display: inline-block;
+        right: 30px;
+        top: 17px;
+        width: 90px;
+        font-family: sans-serif;
+      }
+
+      .nav3 {
+        position: absolute;
+        display: inline-block;
+        left: -10px;
+        top: 17px;
+        width: 100px;
+        font-family: sans-serif;
+      }
+
+      .nav4 {
+        position: absolute;
+        display: inline-block;
+        left: 110px;
+        top: 17px;
+        width: 80px;
+        font-family: sans-serif;
+      }
+
+      .nav:hover {
+        background-color: rgba(0, 0, 0, 0.184);
+        height: 25px;
+      }
+
+      .nav2:hover {
+        background-color: rgba(0, 0, 0, 0.184);
+        height: 25px;
+      }
+
+      .nav3:hover {
+        background-color: rgba(0, 0, 0, 0.184);
+        height: 25px;
+      }
+
+      .nav4:hover {
+        background-color: rgba(0, 0, 0, 0.184);
+        height: 25px;
+      }
+
+      #parent{
+    
+    animation-name: first;
+    animation-duration: 10s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+
+}
+
+@keyframes first {
+   0% {transform: translateX(0%);}
+
+   10%{transform: translateX(-7%);}
+
+   20%{transform: translateX(-14%);}
+
+    30%{transform: translateX(-21%);}
+
+   40% {transform: translateX(-28%);}
+
+   50%{transform: translateX(-35%);}
+
+   60%{transform: translateX(-42%);}
+
+   70%{transform: translateX(-49%);}
+
+
+   80%{transform: translateX(-56%);}
+
+   90%{transform: translateX(-63%);}
+    
+   100%{transform: translateX(-70%);}
+}
+a:link{
+            color: black;
+        }
+        a:hover{
+            color: rgb(144, 238, 130);
+        }
+        a:visited{
+                    color: rgba(224, 109, 64, 0.83);
+        }
+        a:active{
+            color: slateblue;
+        }
+
+
+a{
+ text-decoration: none;display: flex;justify-content: center;align-items: end;height: 440px;font-size: xxx-large;color: black;
+
+}
+    </style>
+  </head>
+
+  <body>
+    <div id="parent_div1">
+      <div style="margin-right: 400px">
+        <img src="./logo.png" alt="" height="55px" />
+      </div>
+
+      <div style="position: relative">
+        <div class="nav">
+          <span>Popular</span>
+        </div>
+
+        <div class="nav1">
+
+          <select name="name" id="MOSTVISITED" style="border: hidden">
+            <option value="">Most Visited</option>
+            <option value="">Loren ipsum</option>
+            <option value="">Nallum nibh</option>
+            <!-- <option value="">Suspendisse semper non</option> -->
+            <option value="">Nunc at quam</option>
+          </select>
+        </div>
+
+        <div class="nav2">
+          <span>Blog Entries</span>
+        </div>
+        <div class="nav3"><span>Our Services</span></div>
+
+        <div class="nav4">
+          <span>Contact Us</span>
+        </div>
+      </div>
+    </div>
+
+    <img src="./main_banner.jpg" alt="" width="100%" height="700px" />
+
+<div style="position: absolute;bottom: 57%;left: 330px;top: 250px;">
+    <h1 style="display: inline-block;font-weight: lighter;border-top: 3px solid rgb(0, 119, 255);font-family: sans-serif;padding-top: 10px;margin-right: 5px;color: white;">Best </h1>
+<h1 style="display: inline-block;font-weight: lighter;font-family: sans-serif;padding-top: 10px;color: white;"> Finder For You</h1><br>
+<span style="color: white;font-family: sans-serif;">Suspendisse </span>
+<span style="color: white;font-family: sans-serif;margin-left: 5px;">eu</span>
+<span style="color: white;font-family: sans-serif;margin-left: 5px;"> lorem </span>
+<span style="color: white;font-family: sans-serif;margin-left: 5px;">massa.</span>
+<span style="color: white;font-family: sans-serif;margin-left: 5px;">Integer </span>
+<span style="color: white;font-family: sans-serif;margin-left: 5px;">sit</span>
+<span style="color: white;font-family: sans-serif;margin-left: 5px;"> amet </span>
+<span style="color: white;font-family: sans-serif;margin-left: 5px;">posuere </span>
+<span style="color: white;font-family: sans-serif;margin-left: 5px;">tellus</span>
+
+
+<br><br>
+<button style="width: 130px;background-color: rgb(0, 119, 255);color: white;height: 40px;">Discover More</button>
+</div>
+
+
+<div style="position: relative;height: 50px;background-color:white;width: 850px;bottom: 55px;border-bottom: 5px solid  rgb(0, 119, 255);left: 25%; display: flex;align-items: center;">
+
+    <div style="position: absolute;left: 1%;">
+        <input type="text" placeholder="Your Name..." height="50px" style="border-top: hidden;border-bottom: hidden;width: 200px;height: 40px;border-left: hidden;border-right: hidden;"> </div>
+
+        <div style="position: absolute;left: 28%;">
+        <input type="text" placeholder="Type Location..." style="border-top: hidden;border-bottom: hidden;width: 200px;height: 40px;border-left: 1px solid;border-right: hidden;"></div>
+
+        <div style="position: absolute;left: 57%;">
+      
+        <select name="hotel" id="hotelnames" style="border-top: hidden;border-bottom: hidden;width: 200px;height: 40px;">
+            <option value="">Hotels</option>
+            <option >Taj</option>
+            <option>Lorem</option>
+
+        </select> </div>
+
+
+        <div style="position: absolute;left:81.5%;">
+        <button style="width: 150px;height: 30px;background-color: blue;color: white;height: 40px;">Search Now</button>
+    </div>
+        
+       
+</div>
+
+
+<p style="color: dodgerblue;font-family: sans-serif;font-size: smaller;margin-left: 50%;">Popular Places</p>
+                <p style="font-family: sans-serif;font-weight: bold;font-size: large;margin-left: 47.5%;">Integer Sapien odio</p>
+
+
+            <div style="position: relative;" id="parent" >
+
+
+                <div style="padding: 12px;position: absolute;display: inline-block;left: 2%;"   >
+                    <img src="./popular_item_1.jpg" alt="" height="175px" width="175px">     
+                           <p style="display: inline-block;font-family: sans-serif;position: absolute;top: 62%;left: 10%;color: white;">Mauris tempus</p>
+                           <p style="display: inline-block;font-size: small;left: 12%;position: absolute;top: 75%;color: rgba(255, 255, 255, 0.712);">7</p>
+                           <p style="display: inline-block;font-size: small;left: 15%;position: absolute;top: 74%;color: rgba(255, 255, 255, 0.712);">6</p>
+                           <p style="display: inline-block;font-size: small;left: 20%;position: absolute;top: 74%;color: rgba(255, 255, 255, 0.712);">listings</p>
+                           <p style="border-radius: 7px;height: 25px;width: 25px;background-color: rgba(0, 0, 0, 0);position: absolute;top: 67%;display: inline-block;left: 75%;border: 1px solid white;"></p>
+                           <p style="font-size: large;position: absolute;color: white;left: 77%;top: 66%;">&#128933;</p>
+                     
+   </div>
+   
+   
+                       
+                       
+   
+                       <div style="padding: 12px;position: absolute;left: 16%;display: inline-block;" >
+                      <img src="./popular_item_2.jpg" alt="" height="175px" width="175px">
+                         
+                      <p style="display: inline-block;font-family: sans-serif;position: absolute;top: 62%;left: 10%;color: white;">Aenean dolor</p>
+                      <p style="display: inline-block;font-size: small;left: 12%;position: absolute;top: 75%;color: rgba(255, 255, 255, 0.712);">1</p>
+                      <p style="display: inline-block;font-size: small;left: 15%;position: absolute;top: 74%;color: rgba(255, 255, 255, 0.712);">8</p>
+                      <p style="display: inline-block;font-size: small;left: 20%;position: absolute;top: 74%;color: rgba(255, 255, 255, 0.712);">listings</p>
+                      <p style="border-radius: 7px;height: 25px;width: 25px;background-color: rgba(0, 0, 0, 0);position: absolute;top: 67%;display: inline-block;left: 75%;border: 1px solid white;"></p>
+                      <p style="font-size: large;position: absolute;color: white;left: 77%;top: 66%;">&#128933;</p>
+                       </div>
+   
+                       <div style="padding: 12px;position: absolute;display: inline-block;left: 30%;" >
+   
+                       <img src="./popular_item_3.jpg" alt="" height="175px" width="175px">
+                         
+                       <p style="display: inline-block;font-family: sans-serif;position: absolute;top: 62%;left: 10%;color: white;">Nunc at quam</p>
+                       <p style="display: inline-block;font-size: small;left: 12%;position: absolute;top: 75%;color: rgba(255, 255, 255, 0.712);">5</p>
+                       <p style="display: inline-block;font-size: small;left: 15%;position: absolute;top: 75%;color: rgba(255, 255, 255, 0.712);">5</p>
+                       <p style="display: inline-block;font-size: small;left: 20%;position: absolute;top: 74%;color: rgba(255, 255, 255, 0.712);">listings</p>
+                       <p style="border-radius: 7px;height: 25px;width: 25px;background-color: rgba(0, 0, 0, 0);position: absolute;top: 67%;display: inline-block;left: 75%;border: 1px solid white;"></p>
+                       <p style="font-size: large;position: absolute;color: white;left: 77%;top: 66%;">&#128933;</p>
+                      
+   
+                   </div>
+
+                   <div style="padding: 12px;position: absolute;display: inline-block;left: 44%;" >
+   
+                    <img src="./popular_item_4.jpg" alt="" height="175px" width="175px">
+                      
+                    <p style="display: inline-block;font-family: sans-serif;position: absolute;top: 62%;left: 10%;color: white;">Fusce ac Turips</p>
+                    <p style="display: inline-block;font-size: small;left: 12%;position: absolute;top: 75%;color: rgba(255, 255, 255, 0.712);">6</p>
+                    <p style="display: inline-block;font-size: small;left: 15%;position: absolute;top: 75%;color: rgba(255, 255, 255, 0.712);">6</p>
+                    <p style="display: inline-block;font-size: small;left: 20%;position: absolute;top: 75%;color: rgba(255, 255, 255, 0.712);">listings</p>
+                    <p style="border-radius: 7px;height: 25px;width: 25px;background-color: rgba(0, 0, 0, 0);position: absolute;top: 67%;display: inline-block;left: 75%;border: 1px solid white;"></p>
+                    <p style="font-size: large;position: absolute;color: white;left: 77%;top: 66%;">&#128933;</p>
+
+                </div>
+
+
+                <div style="padding: 12px;position: absolute;display: inline-block;left: 58%;" >
+   
+                    <img src="./popular_item_5.jpg" alt="" height="175px" width="175px">
+                      
+                    <p style="display: inline-block;font-family: sans-serif;position: absolute;top: 62%;left: 10%;color: white;">Lorem ipsum</p>
+                    <p style="display: inline-block;font-size: large;left: 11%;position: absolute;top: 69%;color: rgba(255, 255, 255, 0.712);">8</p>
+                    <p style="display: inline-block;font-size: small;left: 15%;position: absolute;top: 74%;color: rgba(255, 255, 255, 0.712);">2</p>
+                    <p style="display: inline-block;font-size: small;left: 20%;position: absolute;top: 74%;color: rgba(255, 255, 255, 0.712);">listings</p>
+                    <p style="border-radius: 7px;height: 25px;width: 25px;background-color: rgba(0, 0, 0, 0);position: absolute;top: 67%;display: inline-block;left: 75%;border: 1px solid white;"></p>
+                    <p style="font-size: large;position: absolute;color: white;left: 77%;top: 66%;">&#128933;</p>
+                   
+
+                </div>
+
+                <div style="padding: 12px;position: absolute;display: inline-block;left: 72%;"   >
+                    <img src="./popular_item_1.jpg" alt="" height="175px" width="175px">     
+                           <p style="display: inline-block;font-family: sans-serif;position: absolute;top: 62%;left: 10%;color: white;">Praesent nec</p>
+                           <p style="display: inline-block;font-size: small;left: 12%;position: absolute;top: 75%;color: rgba(255, 255, 255, 0.712);">7</p>
+                           <p style="display: inline-block;font-size: small;left: 15%;position: absolute;top: 74%;color: rgba(255, 255, 255, 0.712);">6</p>
+                           <p style="display: inline-block;font-size: small;left: 20%;position: absolute;top: 74%;color: rgba(255, 255, 255, 0.712);">listings</p>
+                           <p style="border-radius: 7px;height: 25px;width: 25px;background-color: rgba(0, 0, 0, 0);position: absolute;top: 67%;display: inline-block;left: 75%;border: 1px solid white;"></p>
+                           <p style="font-size: large;position: absolute;color: white;left: 77%;top: 66%;">&#128933;</p>
+                     
+   </div>
+
+
+   <div style="padding: 12px;position: absolute;display: inline-block;left: 86%;"   >
+    <img src="./popular_item_3.jpg" alt="" height="175px" width="175px">     
+           <p style="display: inline-block;font-family: sans-serif;position: absolute;top: 62%;left: 10%;color: white;">Mauris tempus</p>
+           <p style="display: inline-block;font-size: small;left: 12%;position: absolute;top: 75%;color: rgba(255, 255, 255, 0.712);">7</p>
+           <p style="display: inline-block;font-size: small;left: 15%;position: absolute;top: 74%;color: rgba(255, 255, 255, 0.712);">6</p>
+           <p style="display: inline-block;font-size: small;left: 20%;position: absolute;top: 74%;color: rgba(255, 255, 255, 0.712);">listings</p>
+           <p style="border-radius: 7px;height: 25px;width: 25px;background-color: rgba(0, 0, 0, 0);position: absolute;top: 67%;display: inline-block;left: 75%;border: 1px solid white;"></p>
+           <p style="font-size: large;position: absolute;color: white;left: 77%;top: 66%;">&#128933;</p>
+     
+</div>
+
+
+       
+       
+
+       <div style="padding: 12px;position: absolute;left: 100%;display: inline-block;" >
+      <img src="./popular_item_2.jpg" alt="" height="175px" width="175px">
+         
+      <p style="display: inline-block;font-family: sans-serif;position: absolute;top: 62%;left: 10%;color: white;">Aenean dolor</p>
+      <p style="display: inline-block;font-size: small;left: 12%;position: absolute;top: 75%;color: rgba(255, 255, 255, 0.712);">1</p>
+      <p style="display: inline-block;font-size: small;left: 15%;position: absolute;top: 74%;color: rgba(255, 255, 255, 0.712);">8</p>
+      <p style="display: inline-block;font-size: small;left: 20%;position: absolute;top: 74%;color: rgba(255, 255, 255, 0.712);">listings</p>
+      <p style="border-radius: 7px;height: 25px;width: 25px;background-color: rgba(0, 0, 0, 0);position: absolute;top: 67%;display: inline-block;left: 75%;border: 1px solid white;"></p>
+      <p style="font-size: large;position: absolute;color: white;left: 77%;top: 66%;">&#128933;</p>
+       </div>
+
+       <div style="padding: 12px;position: absolute;display: inline-block;left: 114%;" >
+
+       <img src="./popular_item_3.jpg" alt="" height="175px" width="175px">
+         
+       <p style="display: inline-block;font-family: sans-serif;position: absolute;top: 62%;left: 10%;color: white;">Nunc at quam</p>
+       <p style="display: inline-block;font-size: small;left: 12%;position: absolute;top: 75%;color: rgba(255, 255, 255, 0.712);">5</p>
+       <p style="display: inline-block;font-size: small;left: 15%;position: absolute;top: 75%;color: rgba(255, 255, 255, 0.712);">5</p>
+       <p style="display: inline-block;font-size: small;left: 20%;position: absolute;top: 74%;color: rgba(255, 255, 255, 0.712);">listings</p>
+       <p style="border-radius: 7px;height: 25px;width: 25px;background-color: rgba(0, 0, 0, 0);position: absolute;top: 67%;display: inline-block;left: 75%;border: 1px solid white;"></p>
+       <p style="font-size: large;position: absolute;color: white;left: 77%;top: 66%;">&#128933;</p>
+      
+
+   </div>
+
+   <div style="padding: 12px;position: absolute;display: inline-block;left: 128%;" >
+
+    <img src="./popular_item_4.jpg" alt="" height="175px" width="175px">
+      
+    <p style="display: inline-block;font-family: sans-serif;position: absolute;top: 62%;left: 10%;color: white;">Fusce ac Turips</p>
+    <p style="display: inline-block;font-size: small;left: 12%;position: absolute;top: 75%;color: rgba(255, 255, 255, 0.712);">6</p>
+    <p style="display: inline-block;font-size: small;left: 15%;position: absolute;top: 75%;color: rgba(255, 255, 255, 0.712);">6</p>
+    <p style="display: inline-block;font-size: small;left: 20%;position: absolute;top: 75%;color: rgba(255, 255, 255, 0.712);">listings</p>
+    <p style="border-radius: 7px;height: 25px;width: 25px;background-color: rgba(0, 0, 0, 0);position: absolute;top: 67%;display: inline-block;left: 75%;border: 1px solid white;"></p>
+    <p style="font-size: large;position: absolute;color: white;left: 77%;top: 66%;">&#128933;</p>
+
+</div>
+
+
+<div style="padding: 12px;position: absolute;display: inline-block;left: 142%;" >
+
+    <img src="./popular_item_5.jpg" alt="" height="175px" width="175px">
+      
+    <p style="display: inline-block;font-family: sans-serif;position: absolute;top: 62%;left: 10%;color: white;">Lorem ipsum</p>
+    <p style="display: inline-block;font-size: large;left: 11%;position: absolute;top: 69%;color: rgba(255, 255, 255, 0.712);">8</p>
+    <p style="display: inline-block;font-size: small;left: 15%;position: absolute;top: 74%;color: rgba(255, 255, 255, 0.712);">2</p>
+    <p style="display: inline-block;font-size: small;left: 20%;position: absolute;top: 74%;color: rgba(255, 255, 255, 0.712);">listings</p>
+    <p style="border-radius: 7px;height: 25px;width: 25px;background-color: rgba(0, 0, 0, 0);position: absolute;top: 67%;display: inline-block;left: 75%;border: 1px solid white;"></p>
+    <p style="font-size: large;position: absolute;color: white;left: 77%;top: 66%;">&#128933;</p>
+   
+
+</div>
+
+<div style="padding: 12px;position: absolute;display: inline-block;left: 156%;"   >
+    <img src="./popular_item_1.jpg" alt="" height="175px" width="175px">     
+           <p style="display: inline-block;font-family: sans-serif;position: absolute;top: 62%;left: 10%;color: white;">Praesent nec</p>
+           <p style="display: inline-block;font-size: small;left: 12%;position: absolute;top: 75%;color: rgba(255, 255, 255, 0.712);">7</p>
+           <p style="display: inline-block;font-size: small;left: 15%;position: absolute;top: 74%;color: rgba(255, 255, 255, 0.712);">6</p>
+           <p style="display: inline-block;font-size: small;left: 20%;position: absolute;top: 74%;color: rgba(255, 255, 255, 0.712);">listings</p>
+           <p style="border-radius: 7px;height: 25px;width: 25px;background-color: rgba(0, 0, 0, 0);position: absolute;top: 67%;display: inline-block;left: 75%;border: 1px solid white;"></p>
+           <p style="font-size: large;position: absolute;color: white;left: 77%;top: 66%;">&#128933;</p>
+     
+</div>
+ </div>
+ <div
+style="
+  display: inline-block;
+  height: 12.5px;
+  width: 12.5px;
+  border-radius: 12.5px;
+  background-color: rgb(0, 119, 255);
+  position: absolute;
+  left: 51%;
+  top: 153.5%;
+  color: white;
+  z-index: 1;
+"
+> </div>
+        
+<div
+style="
+  display: inline-block;
+  height: 12.5px;
+  width: 12.5px;
+  border-radius: 12.5px;
+  background-color: rgb(220, 214, 214);
+  position: absolute;
+  left: 52.5%;
+  top: 153.5%;
+  color: white;
+  z-index: 1;
+"
+> </div>
+
+<div
+style="
+  display: inline-block;
+  height: 12.5px;
+  width: 12.5px;
+  border-radius: 12.5px;
+  background-color: rgb(220, 214, 214);
+  position: absolute;
+  left: 54%;
+  top: 153.5%;
+  color: white;
+  z-index: 1;
+"
+> </div>
+
+
+                  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+                  <div
+                  style="
+                    background-color: whitesmoke;
+                    height: 650px;
+                    position: relative;
+                  "
+                >
+                  <h5
+                    style="
+                      font-family: sans-serif;
+                      color: rgb(0, 119, 255);
+                      font-weight: lighter;
+                      margin-left: 50%;
+                      padding-top: 50;
+                    "
+                  >
+                    Featured Places
+                  </h5>
+                  <h4
+                    style="
+                      font-family: sans-serif;
+                      margin-left: 46%;
+                      margin-top: -10px;
+                      font-size: large;
+                    "
+                  >
+                    Praesent nec dui sed urna
+                  </h4>
+            
+                  <!-- 1part -->
+                  <div
+                    style="
+                      display: inline-block;
+                      height: 75px;
+                      width: 75px;
+                      border-radius: 75px;
+                      background-color: rgb(0, 119, 255);
+                      position: absolute;
+                      left: 34.5%;
+                      top: 23%;
+                      color: white;
+                      z-index: 1;
+                    "
+                  >
+                    <b
+                      style="
+                        margin-left: 23px;
+                        font-size: large;
+                        font-family: sans-serif;
+                        margin-top: 15px;
+                        display: inline-block;
+                      "
+                      >2</b
+                    >
+                    <b
+                      style="font-size: x-large; font-family: sans-serif; margin-left: -2px"
+                      >8</b
+                    >
+                    <p style="margin-top: 5px; margin-left: 15px; font-size: x-small">
+                      AUGUST
+                    </p>
+                  </div>
+                  <div
+                    style="
+                      display: inline-block;
+                      height: 470px;
+                      width: 320px;
+                      background-color: white;
+                      position: absolute;
+                      left: 20%;
+                    "
+                  >
+                    <img src="./featured_item_1.jpg" alt="" width="320px" height="250px" />
+                    <p
+                      style="
+                        color: white;
+                        display: inline-block;
+                        position: absolute;
+                        top: 0%;
+                        left: 25px;
+                      "
+                    >
+                      &#128970;
+                    </p>
+                    <p
+                      style="
+                        color: white;
+                        display: inline-block;
+                        position: absolute;
+                        top: 0%;
+                        left: 40px;
+                      "
+                    >
+                      &#128970;
+                    </p>
+                    <p
+                      style="
+                        color: white;
+                        display: inline-block;
+                        position: absolute;
+                        top: 0%;
+                        left: 55px;
+                      "
+                    >
+                      &#128970;
+                    </p>
+                    <p
+                      style="
+                        color: white;
+                        display: inline-block;
+                        position: absolute;
+                        top: 0%;
+                        left: 70px;
+                      "
+                    >
+                      &#128970;
+                    </p>
+                    <p
+                      style="
+                        color: white;
+                        display: inline-block;
+                        position: absolute;
+                        top: 0%;
+                        left: 85px;
+                      "
+                    >
+                      &#128970;
+                    </p>
+                    <br />
+                    <p
+                      style="
+                        font-family: sans-serif;
+                        font-weight: bold;
+                        font-size: large;
+                        margin-left: 15px;
+                      "
+                    >
+                      Lorem ipsum dolor
+                    </p>
+                    <p
+                      style="
+                        font-family: sans-serif;
+                        font-size: small;
+                        margin-left: 15px;
+                        color: rgb(0, 119, 255);
+                        margin-top: -10px;
+                      "
+                    >
+                      Category One
+                    </p>
+            
+                    <p
+                      style="
+                        font-family: sans-serif;
+                        margin-left: 15px;
+                        font-size: small;
+                        color: rgb(110, 106, 106);
+                      "
+                    >
+                      Vestibulum id est eu felis vulputate hendrerit.
+                    </p>
+                    <p
+                      style="
+                        font-family: sans-serif;
+                        margin-left: 15px;
+                        font-size: small;
+                        color: rgb(110, 106, 106);
+                      "
+                    >
+                      Suspendisse dapibus turpis in dui pulvinar imperdiet.
+                    </p>
+                    <p
+                      style="
+                        font-family: sans-serif;
+                        margin-left: 15px;
+                        font-size: small;
+                        color: rgb(110, 106, 106);
+                      "
+                    >
+                      Nunc consectetur.
+                    </p>
+                    <br />
+                    <hr />
+                    <p
+                      style="
+                        display: inline-block;
+                        font-family: sans-serif;
+                        color: rgb(110, 106, 106);
+                        font-size: small;
+                        bottom: -1.5%;
+                        left: 15px;
+                        position: absolute;
+                        padding-right: 3%;
+                      "
+                    >
+                      ADD TO FAVOURITES
+                    </p>
+                    <div
+                      style="
+                        display: inline-block;
+                        position: absolute;
+                        height: 34px;
+                        border-right: 2px solid rgb(110, 106, 106);
+                        bottom: 0%;
+                        left: 50%;
+                      "
+                    ></div>
+                    <p
+                      style="
+                        display: inline-block;
+                        font-family: sans-serif;
+                        color: rgb(110, 106, 106);
+                        font-size: small;
+                        left: 53%;
+                        position: absolute;
+                        bottom: -1.5%;
+                      "
+                    >
+                      CONTINUE READING
+                    </p>
+                  </div>
+                  <!-- 2 part-->
+            
+                  <div
+                    style="
+                      display: inline-block;
+                      height: 75px;
+                      width: 75px;
+                      border-radius: 75px;
+                      background-color: rgb(0, 119, 255);
+                      position: absolute;
+                      left: 57.5%;
+                      top: 23%;
+                      color: white;
+                      z-index: 1;
+                    "
+                  >
+                    <b
+                      style="
+                        margin-left: 23px;
+                        font-size: large;
+                        font-family: sans-serif;
+                        margin-top: 15px;
+                        display: inline-block;
+                      "
+                      >2</b
+                    >
+                    <b style="font-size: large; font-family: sans-serif; margin-left: -2px"
+                      >0</b
+                    >
+                    <p style="margin-top: 5px; margin-left: 6px; font-size: x-small">
+                      SEPTEMBER
+                    </p>
+                  </div>
+                  <div
+                    style="
+                      display: inline-block;
+                      height: 470px;
+                      width: 320px;
+                      background-color: white;
+                      position: absolute;
+                      left: 43%;
+                    "
+                  >
+                    <img src="./featured_item_2.jpg" alt="" width="320px" height="250px" />
+                    <p
+                      style="
+                        color: white;
+                        display: inline-block;
+                        position: absolute;
+                        top: 0%;
+                        left: 25px;
+                      "
+                    >
+                      &#128970;
+                    </p>
+                    <p
+                      style="
+                        color: white;
+                        display: inline-block;
+                        position: absolute;
+                        top: 0%;
+                        left: 40px;
+                      "
+                    >
+                      &#128970;
+                    </p>
+                    <p
+                      style="
+                        color: white;
+                        display: inline-block;
+                        position: absolute;
+                        top: 0%;
+                        left: 55px;
+                      "
+                    >
+                      &#128970;
+                    </p>
+                    <p
+                      style="
+                        color: white;
+                        display: inline-block;
+                        position: absolute;
+                        top: 0%;
+                        left: 70px;
+                      "
+                    >
+                      &#128970;
+                    </p>
+                    <p
+                      style="
+                        color: white;
+                        display: inline-block;
+                        position: absolute;
+                        top: 0%;
+                        left: 85px;
+                      "
+                    >
+                      &#128970;
+                    </p>
+                    <br />
+                    <p
+                      style="
+                        font-family: sans-serif;
+                        font-weight: bold;
+                        font-size: large;
+                        margin-left: 15px;
+                      "
+                    >
+                      Nullam nibh lacus
+                    </p>
+                    <p
+                      style="
+                        font-family: sans-serif;
+                        font-size: small;
+                        margin-left: 15px;
+                        color: rgb(0, 119, 255);
+                        margin-top: -10px;
+                      "
+                    >
+                      Category Two
+                    </p>
+            
+                    <p
+                      style="
+                        font-family: sans-serif;
+                        margin-left: 15px;
+                        font-size: small;
+                        color: rgb(110, 106, 106);
+                      "
+                    >
+                      Mauris sit amet quam congue, pulvinar urna et.
+                    </p>
+                    <p
+                      style="
+                        font-family: sans-serif;
+                        margin-left: 15px;
+                        font-size: small;
+                        color: rgb(110, 106, 106);
+                      "
+                    >
+                      congue diam. Suspendisse eu lorem massa. Integer
+                    </p>
+                    <p
+                      style="
+                        font-family: sans-serif;
+                        margin-left: 15px;
+                        font-size: small;
+                        color: rgb(110, 106, 106);
+                      "
+                    >
+                      sit amet posuere.
+                    </p>
+                    <br />
+                    <hr />
+                    <p
+                      style="
+                        display: inline-block;
+                        font-family: sans-serif;
+                        color: rgb(110, 106, 106);
+                        font-size: small;
+                        bottom: -1.5%;
+                        left: 15px;
+                        position: absolute;
+                        padding-right: 3%;
+                      "
+                    >
+                      ADD TO FAVOURITES
+                    </p>
+                    <div
+                      style="
+                        display: inline-block;
+                        position: absolute;
+                        height: 34px;
+                        border-right: 2px solid rgb(110, 106, 106);
+                        bottom: 0%;
+                        left: 50%;
+                      "
+                    ></div>
+                    <p
+                      style="
+                        display: inline-block;
+                        font-family: sans-serif;
+                        color: rgb(110, 106, 106);
+                        font-size: small;
+                        left: 53%;
+                        position: absolute;
+                        bottom: -1.5%;
+                      "
+                    >
+                      CONTINUE READING
+                    </p>
+                  </div>
+                  <!-- 3part -->
+            
+                  <div
+                    style="
+                      display: inline-block;
+                      height: 75px;
+                      width: 75px;
+                      border-radius: 75px;
+                      background-color: rgb(0, 119, 255);
+                      position: absolute;
+                      left: 80.5%;
+                      top: 23%;
+                      color: white;
+                      z-index: 1;
+                    "
+                  >
+                    <b
+                      style="
+                        margin-left: 23px;
+                        font-size: large;
+                        font-family: sans-serif;
+                        margin-top: 15px;
+                        display: inline-block;
+                      "
+                      >1</b
+                    >
+                    <b style="font-size: large; font-family: sans-serif; margin-left: -2px"
+                      >2</b
+                    >
+                    <p style="margin-top: 5px; margin-left: 13px; font-size: x-small">
+                      OCTOBER
+                    </p>
+                  </div>
+                  <div
+                    style="
+                      display: inline-block;
+                      height: 470px;
+                      width: 320px;
+                      background-color: white;
+                      position: absolute;
+                      left: 66%;
+                    "
+                  >
+                    <img src="./featured_item_3.jpg" alt="" width="320px" height="250px" />
+                    <p
+                      style="
+                        color: white;
+                        display: inline-block;
+                        position: absolute;
+                        top: 0%;
+                        left: 25px;
+                      "
+                    >
+                      &#128970;
+                    </p>
+                    <p
+                      style="
+                        color: white;
+                        display: inline-block;
+                        position: absolute;
+                        top: 0%;
+                        left: 40px;
+                      "
+                    >
+                      &#128970;
+                    </p>
+                    <p
+                      style="
+                        color: white;
+                        display: inline-block;
+                        position: absolute;
+                        top: 0%;
+                        left: 55px;
+                      "
+                    >
+                      &#128970;
+                    </p>
+                    <p
+                      style="
+                        color: white;
+                        display: inline-block;
+                        position: absolute;
+                        top: 0%;
+                        left: 70px;
+                      "
+                    >
+                      &#128970;
+                    </p>
+                    <p
+                      style="
+                        color: white;
+                        display: inline-block;
+                        position: absolute;
+                        top: 0%;
+                        left: 85px;
+                      "
+                    >
+                      &#128970;
+                    </p>
+                    <br />
+                    <p
+                      style="
+                        font-family: sans-serif;
+                        font-weight: bold;
+                        font-size: large;
+                        margin-left: 15px;
+                      "
+                    >
+                      Suspendisse semper non
+                    </p>
+                    <p
+                      style="
+                        font-family: sans-serif;
+                        font-size: small;
+                        margin-left: 15px;
+                        color: rgb(0, 119, 255);
+                        margin-top: -10px;
+                      "
+                    >
+                      Category Three
+                    </p>
+            
+                    <p
+                      style="
+                        font-family: sans-serif;
+                        margin-left: 15px;
+                        font-size: small;
+                        color: rgb(110, 106, 106);
+                      "
+                    >
+                      Praesent iaculis gravida elementum. Proin
+                    </p>
+                    <p
+                      style="
+                        font-family: sans-serif;
+                        margin-left: 15px;
+                        font-size: small;
+                        color: rgb(110, 106, 106);
+                      "
+                    >
+                      fermentum neque facilisis semper pharetra. Sed
+                    </p>
+                    <p
+                      style="
+                        font-family: sans-serif;
+                        margin-left: 15px;
+                        font-size: small;
+                        color: rgb(110, 106, 106);
+                      "
+                    >
+                      vestibulum vehicula tincidunt.
+                    </p>
+                    <br />
+                    <hr />
+                    <p
+                      style="
+                        display: inline-block;
+                        font-family: sans-serif;
+                        color: rgb(110, 106, 106);
+                        font-size: small;
+                        bottom: -1.5%;
+                        left: 15px;
+                        position: absolute;
+                        padding-right: 3%;
+                      "
+                    >
+                      ADD TO FAVOURITES
+                    </p>
+                    <div
+                      style="
+                        display: inline-block;
+                        position: absolute;
+                        height: 34px;
+                        border-right: 2px solid rgb(110, 106, 106);
+                        bottom: 0%;
+                        left: 50%;
+                      "
+                    ></div>
+                    <p
+                      style="
+                        display: inline-block;
+                        font-family: sans-serif;
+                        color: rgb(110, 106, 106);
+                        font-size: small;
+                        left: 53%;
+                        position: absolute;
+                        bottom: -1.5%;
+                      "
+                    >
+                      CONTINUE READING
+                    </p>
+                  </div>
+                </div>
+            
+            <br><br><br><br>
+            
+            <div style="position: relative;background-color: white;">
+            
+              <p style="color: rgb(0, 119, 255);font-size: small;font-family: sans-serif;margin-left: 50%;">Our Services</p>
+            <p style="font-family: sans-serif;margin-left: 47.5%;font-size: large;font-weight: bold;">Best Template Site</p>
+            
+            
+            <!-- FIRST BOX -->
+            <div style="height: 300px;width: 350px;border: 1px solid black; position: absolute;left: 13%;display: inline-block;">
+            <img src="./service_icon_1.png" alt="" width="60px" height="60px" style="position: absolute;left: 40%;top: 15%;">
+            <p style="margin-left: 24%;margin-top: 39%;font-family: sans-serif;font-size: large;font-weight: bold;">High Quality Design</p>
+            
+            <p style="margin-left: 11px; color: rgb(110, 106, 106);font-family: sans-serif;">Etiam viverra nibh at lorem hendrerit porta non </p>
+            <p style="margin-left: 19px;margin-top: -10px; color: rgb(110, 106, 106);font-family: sans-serif;"> nec ligula. Donec hendrerit porttitor pretium. </p>
+            <p style="margin-left: 45px;margin-top: -10px; color: rgb(110, 106, 106);font-family: sans-serif;">Suspendisse fermentum nec risus.</p>
+            </div>
+            
+            
+            <!-- SECOND BOX -->
+            
+            <div style="height: 300px;width: 350px;border: 1px solid black; position: absolute;left: 40%;display: inline-block;">
+              <img src="./service_icon_2.png" alt="" width="60px" height="60px" style="position: absolute;left: 40%;top: 15%;">
+              <p style="margin-left: 25%;margin-top: 39%;font-family: sans-serif;font-size: large;font-weight: bold;">Fully Customizable</p>
+              
+              <p style="margin-left: 15px; color: rgb(110, 106, 106);font-family: sans-serif;">Vivamus nec vehicula felis, sit amet convallis</p>
+              <p style="margin-left: 25px;margin-top: -10px; color: rgb(110, 106, 106);font-family: sans-serif;">ex. Aenean dolor risus, rutrum at tincidunt</p>
+              <p style="margin-left: 88px;margin-top: -10px; color: rgb(110, 106, 106);font-family: sans-serif;"> eget. placerat ac mauris.</p>
+              </div>
+            
+            
+              <!-- THIRD BOX -->
+            
+            
+              <div style="height: 300px;width: 350px;border: 1px solid black; position: absolute;left: 67%;display: inline-block;">
+                <img src="./service_icon_3.png" alt="" width="60px" height="60px" style="position: absolute;left: 40%;top: 15%;">
+                <p style="margin-left: 21%;margin-top: 39%;font-family: sans-serif;font-size: large;font-weight: bold;">Best HTML CSS Layout</p>
+                
+                <p style="margin-left: 11px; color: rgb(110, 106, 106);font-family: sans-serif;"> Praesent nec dui sed urna pharetra dapibus at</p>
+                <p style="margin-left: 33px;margin-top: -10px; color: rgb(110, 106, 106);font-family: sans-serif;">ac elit. Aenean hendrerit metus leo, quis</p>
+                <p style="margin-left: 86px;margin-top: -10px; color: rgb(110, 106, 106);font-family: sans-serif;">purus condimentum nec.</p>
+                </div>
+            
+                <div style="border-bottom: 1px solid rgb(110, 106, 106);margin-top: 25%;width: 1250px;margin-left: 9%;"></div>
+            </div>
+            
+            
+            <br><br>
+            
+            <div style="position: relative;">
+            
+              <div style="position: absolute;display: inline-block;left: 14%;">
+                <p style="font-family: sans-serif;font-size: large;font-weight: bold;">In hac habitasse platea dictumst</p>
+                <p style="color:  rgb(110, 106, 106) ;font-family: sans-serif;">Aenean hendrerit metus leo, quis viverra purus condimentum nec.</p>
+                <p style="color:  rgb(110, 106, 106) ;margin-top: -10px;font-family: sans-serif;">Pellentesque a sem semper, lobortis mauris non, varius urna. Quisque</p>
+                <p style="color:  rgb(110, 106, 106) ;margin-top: -10px;font-family: sans-serif;">sodales purus eu tellus fringilla.</p>
+                
+                <p style="color:  rgb(110, 106, 106) ;font-family: sans-serif;margin-top: 30px;">Mauris sit amet quam congue, pulvinar urna et, congue diam. Suspendisse </p>
+                <p style="color:  rgb(110, 106, 106) ;font-family: sans-serif;margin-top: -10px;">eu lorem massa. Integer sit amet posuere tellus, id efficitur leo. In hac</p>
+                <p style="color:  rgb(110, 106, 106) ;font-family: sans-serif;margin-top: -10px;">habitasse platea dictumst.</p>
+            
+                <button style="width: 130px;background-color: rgb(0, 119, 255);color: white;height: 40px;border-color: transparent;">Discover More</button>
+              </div>
+            
+            
+              <div style="position: absolute;display: inline-block;left: 53%;border: 1px solid  rgb(110, 106, 106);width: 540px;">
+               
+                      <p style="font-family: sans-serif;font-weight: bold;display: inline-block;margin-left: 4%;height: 10px;padding-top: 2%;">Ut in dapibus ipsum </p>
+                      <div style="display: inline-block;border-radius: 15px;background-color: rgb(0, 119, 255); height: 15px;width: 15px;margin-left: 55%;"></div>
+                      
+                      <div style=" display: inline-block;border-bottom: 1px solid rgb(110, 106, 106);width: 540px;margin-left: 0%;margin-top: 3%;"></div>
+            
+                      <p style="color:  rgb(110, 106, 106) ;font-family: sans-serif;margin-top: 30px;margin-left: 5%;">
+                        Nulla eget aliquet dui, vitae tincidunt nulla. Sed sagittis odio vitae</p>
+            
+                      <p style="color:  rgb(110, 106, 106) ;font-family: sans-serif;margin-top: -10px;margin-left: 5%;">auctor volutpat. In semper ex neque, ut hendrerit mauris rutrum eget.</p>
+                      <p style="color:  rgb(110, 106, 106) ;font-family: sans-serif;margin-top: -10px;margin-left: 5%;">Integer consectetur neque eu enim dictum porta. Sed et risus ac</p>
+                      <p style="color:  rgb(110, 106, 106) ;font-family: sans-serif;margin-top: -10px;margin-left: 5%;"> sapien congue mattis.</p>
+            
+                      <div style=" display: inline-block;border-bottom: 1px solid rgb(110, 106, 106);width: 540px;margin-left: 0%;margin-top: 3%;"></div>
+            
+                      <p style="font-family: sans-serif;font-weight: bold;display: inline-block;margin-left: 5%;height: 10px;padding-top: 2%;">Vivamus ligula metus</p>
+                      <div style="display: inline-block;border-radius: 15px;background-color:rgba(110, 106, 106, 0.323)  ; height: 15px;width: 15px;margin-left: 55%;"></div>
+            
+             <div style=" display: inline-block;border-bottom: 1px solid rgb(110, 106, 106);width: 540px;margin-left: 0%;margin-top: 3%;"></div>
+            
+                      <p style="font-family: sans-serif;font-weight: bold;display: inline-block;margin-left: 5%;height: 25px;padding-top: 2%;">Suspendisse dapibus</p>
+                      <div style="display: inline-block;border-radius: 15px;background-color:rgba(110, 106, 106, 0.323) ; height: 15px;width: 15px;margin-left: 55%;"></div>
+              </div>
+            </div>
+            <a href="./sample4.html" target="_self" >&#128898;</a>
+  </body>
+</html>
