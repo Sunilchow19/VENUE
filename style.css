@@ -401,7 +401,7 @@ body {
 }
 
 
-/* IMAGE BOXES STYLING */
+/* FEATURED PLACES STYLING */
 
 /* General styles */
 body {
@@ -526,7 +526,7 @@ body {
   .card {
     width: 100%;
     /* margin: 10px 0; */
-    height: 25rem;
+    height: 28rem;
   }
   .box{
     display: flex;
@@ -545,7 +545,7 @@ body {
 }
 
 
-/* BOX STYLINGS */
+/* OUR SERVICES STYLINGS */
 body {
   margin: 0;
   font-family: sans-serif;
